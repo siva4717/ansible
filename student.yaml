@@ -1,0 +1,39 @@
+- name: "siva gopi"
+  age: 20
+  gender: "male"
+  addresess: 
+  - type: "current"
+    doorno: "123-39-3222"
+    street: "Gandhi nagar"
+    pincode: 544990
+
+  - type: "current"
+    doorno: "123-39-3222"
+    street: "Gandhi nagar"
+    pincode: 544990
+
+  skills:
+  - java
+  - python
+  - go
+  
+
+- name: "kiran"
+  age: 20
+  gender: "male"
+  addresess: 
+  - type: "current"
+    doorno: "123-39-3222"
+    street: "Gandhi nagar"
+    pincode: 544990
+
+  - type: "current"
+    doorno: "123-39-3222"
+    street: "Gandhi nagar"
+    pincode: 544990
+    
+  skills:
+  - java
+  - python
+  - go
+   

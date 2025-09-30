@@ -1,0 +1,22 @@
+{
+    "name":"siva gopi",
+    "age":27,
+    "pincode":533003,
+    "addresses":[
+        {
+            "type":"current",
+            "doorno":"123-19-3222",
+            "street":"gandhi_nagar",
+            "pincode":533990
+        },
+        {
+           "type":"temp",
+            "doorno":"123-19-3222",
+            "street":"gandhi_nagar",
+            "pincode":533990 
+        }
+    ],
+    "skills":["java","python","go"]
+
+} 
+

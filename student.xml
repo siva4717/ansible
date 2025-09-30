@@ -1,0 +1,46 @@
+<students>
+    <student>
+        <name>siva gopi</name>
+        <dob>1-1-1</dob>
+        <age>27</age>
+        <addresses>
+            <address type="current">
+                <doorno>123-19</doorno>
+                <street>gandhinagar</street>
+                <pin>522006</pin>
+            </address>
+            <address type="temp">
+                <doorno>123-19</doorno>
+                <street>gandhinagar</street>
+                <pin>522006</pin>
+            </address>
+        </addresses>
+        <skills>
+            <skill>java</skill>
+            <skill>python</skill>
+            <skill>go</skill>
+        </skills>
+    </student>
+    <student>
+        <name>siva gopi</name>
+        <dob>1-1-1</dob>
+        <age>27</age>
+        <addresses>
+            <address type="current">
+                <doorno>123-19</doorno>
+                <street>gandhinagar</street>
+                <pin>522006</pin>
+            </address>
+            <address type="temp">
+                <doorno>123-19</doorno>
+                <street>gandhinagar</street>
+                <pin>522006</pin>
+            </address>
+        </addresses>
+        <skills>
+            <skill>java</skill>
+            <skill>python</skill>
+            <skill>go</skill>
+        </skills>
+    </student>
+</students>
