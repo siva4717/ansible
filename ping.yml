@@ -1,6 +1,6 @@
 - name: check the ping status
   hosts: frontend
   become: yes
-  task:
-  - name: ping status
+  tasks:
+  - name: ping 
     ansible.builtin.ping:
