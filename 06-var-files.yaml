@@ -1,0 +1,15 @@
+- name: create variable file to get the variables
+  hosts: local
+  connection: local
+  become: yes
+ 
+#  creating variable files
+  var_files:
+    course.yaml
+  
+# crating task
+  tasks:
+  - name: print course info in var_files
+    ansible.builtin.debug:
+      msg: "COURSE is {{ COURSE }} , Duration is {{ DURATION }} , Trainee is {{ TRAINEE }}"
+
