@@ -1,0 +1,20 @@
+- name: data types
+  hosts: local
+  connection: local
+  become: yes
+
+  vars:
+    COURSE: DevSecOps with AWS # string 
+    DURATION: 120 # number
+    is_live: true # boolean
+    # list
+    tools: #["linux","shell-script","ansible"]
+    - linux
+    - shell-script
+    - ansible
+    concepts: # dictionary or map
+    - cloud: AWS
+    - cm: ansible
+
+# list: []
+# ditionary or map: {}
