@@ -1,8 +1,8 @@
 - name : variable preference
   hosts: local
   connection: local
-  vars: 
-    NAME: from play leval
+  # vars: 
+  #   NAME: from play leval
 
   # vars_files:
   # - course.yaml
@@ -23,3 +23,4 @@
 # second preference task leval
 # third preference files leval
 # fourth preference prompt leval
+# fifth preference play leval
