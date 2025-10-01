@@ -14,6 +14,6 @@
 
   # create task
   tasks:
-  - name: variables from promt
+  - name: print credentials
     ansible.builtin.debug:
-      msg: " username name is {{ name }} and password is {{ password }}."
+      msg: " Hello username name is {{ username }} and password is {{ password }}."
