@@ -16,5 +16,10 @@
     - cloud: AWS
     - cm: ansible
 
+  tasks:
+  - name: print data types
+    ansible.builtin.debug:
+      msg: "Course is {{ COURSE }}, Duration is {{ DURATION }} , is_live {{ is_live }} , tolls are {{ tools }} , concepts are {{ concepts }}"
+
 # list: []
 # ditionary or map: {}
