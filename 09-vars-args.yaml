@@ -1,0 +1,11 @@
+- name: variables from arguments
+  hosts: local
+  connection: local
+  become: yes
+  
+  tasks:
+  - name: print course info
+    ansible.builtin.debug:
+      msg: " Course is {{ COURSE }} , Duration is {{ DURATION }} , Trainee is {{ TRAINEE }}"
+
+# ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 -e "COURSE=AWS" -e "DURATION=10H" -e "TRAINEE=Siva Kumar Reddy" 09-vars-args.yaml
