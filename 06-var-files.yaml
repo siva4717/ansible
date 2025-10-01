@@ -5,7 +5,7 @@
  
 #  creating variable files
   var_files:
-    course.yaml
+  - course.yaml
   
 # crating task
   tasks:
