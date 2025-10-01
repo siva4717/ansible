@@ -4,7 +4,7 @@
   become: yes
  
 #  creating variable files
-  var_files:
+  vars_files:
   - course.yaml
   
 # crating task
