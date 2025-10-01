@@ -11,5 +11,5 @@
   - name: Task leval variables
     vars:
       COURSE: AWS with Ansible
-    ansible.builtin,debug:
+    ansible.builtin.debug:
       msg: "COURSE is {{ COURSE }} , Duration is {{ DURATION }} , Trainee is {{ TRAINEE }}"
