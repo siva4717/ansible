@@ -11,10 +11,10 @@
     private: false
   tasks:
   - name: from task leval
-    vars: 
-      NAME: from task leval
+    # vars: 
+    #   NAME: from task leval
     ansible.builtin.debug:
       msg: "{{ NAME }}"
 
 # first preference command leval variables 
-
+# second preference task leval
