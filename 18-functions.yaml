@@ -61,9 +61,9 @@
   # convert uppercase
   - name: convert uppercase
     ansible.builtin.debug:
-      msg: "{{ name | uppercase }}"
+      msg: "{{ name | upper }}"
   
   # convert lowercase
   - name: convert lowercase
     ansible.builtin.debug:
-      msg: "{{ gmail | lowercase }}"
+      msg: "{{ gmail | lower }}"
