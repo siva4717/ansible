@@ -25,7 +25,7 @@
   # default variable
   - name: default variable
     ansible.builtin.debug:
-      msg: "Hello {{ default('GOPI') }}"
+      msg: "Hello {{ name | default('GOPI') }}"
 
   # convert string to list
   - name: convert string to list
