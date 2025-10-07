@@ -21,7 +21,13 @@
       value: Dev
 
   tasks:
+
   # default variable
   - name: default variable
-    ansible.butiltin.debug:
+    ansible.builtin.debug:
       msg: "Hello {{ default('GOPI') }}"
+
+  # convert string to list
+  - name: convert string to list
+    ansible.builtin.debug:
+      msg: "Techonologies are: {{ technologies | split(',') }}"
