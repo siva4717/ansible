@@ -47,3 +47,7 @@
     ansible.builtin.set_fact:
       student_yaml: "{{ lookup('file', './student.yaml') | from_yaml }}"   
     
+  # convert yaml to json
+  - name: convert yaml to json
+    ansible.builtin.debug:
+      msg: "{{ student_yaml }}""
