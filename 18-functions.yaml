@@ -1,0 +1,27 @@
+- name: creating functions
+  hosts: local
+  connecton: local
+
+  vars:
+    technologies: DevOps, Linux, Shell, Ansible #string
+    name: "Siva Gopi M"
+    gmail: "SivaGopi@GMAIL.COM"
+    ipaddress: "123.342.342.111"
+
+    # dictionary or map
+    tags:
+      Application: payament
+      Environment: Dev 
+
+    # list
+    ListTags:
+    - key: Application
+      value: payment
+    - key: Environment
+      value: Dev
+
+  tasks:
+  # default variable
+  - name: default variable
+    ansible.butiltin.debug:
+      msg: "Hello {{ default('GOPI') }}"
