@@ -51,3 +51,9 @@
   - name: convert yaml to json
     ansible.builtin.debug:
       msg: "json: {{ student_yaml | to_json }}"
+
+  # save json to file
+  - name: save json to file 
+    ansible.builtin.copy:
+      dest: ./student-data.json
+      content: " {{ student_yaml | to_nice_json }} "
